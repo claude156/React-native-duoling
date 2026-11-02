@@ -1,0 +1,6 @@
+@theme {
+  --radius-control: 12px;
+  --radius-card: 16px;
+  --radius-panel: 24px;
+  --radius-pill: 9999px;
+}

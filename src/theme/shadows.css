@@ -1,0 +1,4 @@
+@theme {
+  --shadow-card: 0 2px 12px rgb(13 19 43 / 4%);
+  --shadow-raised: 0 6px 18px rgb(13 19 43 / 10%);
+}

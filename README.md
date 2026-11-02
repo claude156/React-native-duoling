@@ -1,4 +1,4 @@
-# Welcome to your Expo app 👋
+# React-native-duoling
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
@@ -24,6 +24,18 @@ In the output, you'll find options to open the app in a
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
 You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Design system
+
+Design tokens live in `src/theme/` and are exposed as NativeWind utilities through
+`src/global.css`. Use semantic palette classes such as `bg-brand-purple` and
+`text-text-primary`, spacing classes such as `p-md`, and typography utilities such
+as `h1`, `h2`, `body-medium`, and `caption`.
+
+Poppins Regular, Medium, SemiBold, and Bold are embedded for iOS and Android by
+the Expo Font config plugin. Web loads the font files in the root layout before
+rendering. Rebuild the native development app after changing fonts or this plugin;
+Expo Go does not include app-specific config-plugin fonts.
 
 ## Get a fresh project
 
