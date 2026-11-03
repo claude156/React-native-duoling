@@ -60,3 +60,9 @@
   border-width: 1px;
   box-shadow: var(--shadow-card);
 }
+
+@utility onboarding-mascot-frame {
+  width: 100%;
+  max-width: 320px;
+  height: 320px;
+}
